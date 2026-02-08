@@ -1,0 +1,34 @@
+[project]
+name = "masrouter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <3.14"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "sentence-transformers",
+    "networkx",
+    "vllm>=0.15.1",
+    "matplotlib",
+    "tqdm",
+    "numpy",
+    "pandas",
+    "tqdm",
+    "loguru",
+    "openai",
+    "tenacity",
+    "shortuuid",
+    "python-dotenv",
+    "class-registry",
+    "pyyaml",
+    "requests",
+    "tiktoken",
+    "seaborn",
+    "accelerate>=1.12.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["MAR*"]

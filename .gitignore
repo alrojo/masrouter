@@ -12,3 +12,7 @@ register/
 *.pptx
 *.zip
 settings.json
+
+scripts/*.log
+scripts/*.txt
+uv.lock
